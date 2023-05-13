@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Mesh">
+      <UniqueIdentifier>{18123e86-15cb-4309-b4be-543c25816a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{e1a1a563-4acd-4701-8b65-a577cb508ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject">
+      <UniqueIdentifier>{b57196af-80a4-41ae-b185-f540dd1eca91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject\Player">
+      <UniqueIdentifier>{b80cd130-e5ac-496b-afa7-15d93fc7b83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject\BulletObject">
+      <UniqueIdentifier>{978fe6a0-b87a-44f8-ba33-57d65aaf2f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject\RotatingObject">
+      <UniqueIdentifier>{e8ab36e8-05cd-406b-b4ed-b8de5336d5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject\RotatingObject\ExplosiveObject">
+      <UniqueIdentifier>{8c3ada2a-efb4-4577-aa69-ad1f4b8e770e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject\AxisObject">
+      <UniqueIdentifier>{73414366-cc09-45d7-8622-0dd681648e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject\FloorObject">
+      <UniqueIdentifier>{78edf3fc-b45a-4e3a-9b4f-5489b1631667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Camera">
+      <UniqueIdentifier>{e564c75a-ebca-4b5d-b39f-22f2128b4df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Default">
+      <UniqueIdentifier>{22078102-dc86-490c-9b56-dc4bcb0e0749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject\RotatingObject\DecoObject">
+      <UniqueIdentifier>{a3277634-6c76-4960-a482-c81d258edf9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject\Monster">
+      <UniqueIdentifier>{132af1e4-6f59-4ec5-b7f6-4613775e1952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject\Effect">
+      <UniqueIdentifier>{e51bc8bc-9122-4077-a9da-bd14a930b105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject\Effect\BlowUp">
+      <UniqueIdentifier>{77f253a9-5a11-4f4f-81de-efb24d5cc0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\TextManager">
+      <UniqueIdentifier>{24bb8d56-2a85-4068-93d1-2dbbea740def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject\Player\ShieldObject">
+      <UniqueIdentifier>{934ec8b0-569c-497f-9189-a839b1e54009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. GameObject\Monster\Mortar">
+      <UniqueIdentifier>{efce2d9f-7588-414a-aff7-70a32d01aa0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LabProject02-02.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="LabProject02-02.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\01. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\01. GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletObject.cpp">
+      <Filter>소스 파일\01. GameObject\BulletObject</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatingObject.cpp">
+      <Filter>소스 파일\01. GameObject\RotatingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisObject.cpp">
+      <Filter>소스 파일\01. GameObject\AxisObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorObject.cpp">
+      <Filter>소스 파일\01. GameObject\FloorObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosiveObject.cpp">
+      <Filter>소스 파일\01. GameObject\RotatingObject\ExplosiveObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\02. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>소스 파일\99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsPipeline.cpp">
+      <Filter>소스 파일\99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="LabProject02-02.cpp">
+      <Filter>소스 파일\99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoObject.cpp">
+      <Filter>소스 파일\01. GameObject\RotatingObject\DecoObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\01. GameObject\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="BlowUpObject.cpp">
+      <Filter>소스 파일\01. GameObject\Effect\BlowUp</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>소스 파일\TextManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldObject.cpp">
+      <Filter>소스 파일\01. GameObject\Player\ShieldObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MortarMonster.cpp">
+      <Filter>소스 파일\01. GameObject\Monster\Mortar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\01. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\01. GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletObject.h">
+      <Filter>소스 파일\01. GameObject\BulletObject</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatingObject.h">
+      <Filter>소스 파일\01. GameObject\RotatingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisObject.h">
+      <Filter>소스 파일\01. GameObject\AxisObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorObject.h">
+      <Filter>소스 파일\01. GameObject\FloorObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosiveObject.h">
+      <Filter>소스 파일\01. GameObject\RotatingObject\ExplosiveObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>소스 파일\02. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>소스 파일\99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsPipeline.h">
+      <Filter>소스 파일\99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="LabProject02-02.h">
+      <Filter>소스 파일\99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoObject.h">
+      <Filter>소스 파일\01. GameObject\RotatingObject\DecoObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\01. GameObject\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="BlowUpObject.h">
+      <Filter>소스 파일\01. GameObject\Effect\BlowUp</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>소스 파일\TextManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldObject.h">
+      <Filter>소스 파일\01. GameObject\Player\ShieldObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MortarMonster.h">
+      <Filter>소스 파일\01. GameObject\Monster\Mortar</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
